@@ -37,8 +37,6 @@
     <li>Bananas</li>
     <li>Carrots</li>
 </ul>
-</body>
-</html>
 <h1>Table</h1>
     <table width="90%" border="1px" align="center" cellpadding="10px" cellspacing="5">
         <thead> <!-- table header-->
@@ -93,3 +91,95 @@
         </tbody>
     </thead>
 </table>
+    <h1>Links</h1>
+    <a href = "https://www.ubaguio.edu"
+    target = "_blank"
+    title = "UB Official Website">
+    University of Baguio
+</a> <!--External link-->
+<br>
+<a href = "index.html"
+    target = "_self">Home Page</a>
+<br>
+    <a filename="../HUMCOM ACTIVITIES.TXT"
+    target = "_sekf">HUMCOM ACTIVITIES</a>
+<br>
+    <a href = "mailto:ub@e.ubaguio.edu">Contact Us</a> <!--Email Link-->
+    <h1>Media</h1>
+    <p>Add Image</p>
+        <img src = "assets/images/University_of_Baguio_logo.png"
+        alt = "UB University_of_Baguio_logo"
+        width = "200px"
+        height = "200px"> <!--Image-->
+    <p>Add Video</p>
+        <video width = "320"
+                height = "240"
+                controls>
+            <source src = "assets/videos/Free Video of Nature In 10 Second Free 4k video Copyright.mp4"
+            type = "videos/mp4">
+            Your browser does not support the audio tag.
+            </video> <!--Video-->
+            <p>Add Audio</p>
+            <audio controls>
+                <source src = "assets/audio/Transition - Sound Effects.mp3"
+            type = "aduio/mp3">
+            Your browser does not support the audio tag.
+            </audio><!--Audio-->
+    <h1>Forms</h1>
+    <fieldset name = "Registration Form">
+    <legend > Registration Form</legend>
+    <form action="Basic.html"
+    method="post">
+    <label for="fname">First Name</label>
+    <input type="text"
+        id="fname"
+        name="fname"
+        required>
+    <br>
+    <label for="lname">Last Name</label>
+    <input type="text"
+        id="lname"
+        name="lname"
+        required>
+    <br>
+    <label for="email">Email</label>
+    <input type="email"
+        id="email"
+        name="email"
+        required>
+    <br>
+    <label for="message">Message</label>
+    <textarea type="message"
+        id="message"
+        name="message"
+        required></textarea>
+    <br>
+    <label for="bday">Birthday</label>
+    <input type="date"
+        id="bday"
+        name="bday"
+        required>
+    <br>
+    <label for="gender">Gender</label>
+    <input type="radio"
+        name="gender"
+        value="male"
+        id="gender">Male
+    <label for="gender">Gender</label>
+    <input type="radio"
+        name="gender"
+        value="female"
+        id="gender">Female
+    <br>
+    <label for = "color">Favorite Color:</label>
+    <input TYPE = "color"    
+        id = "color"
+        name = "color"
+        required>
+    <br>
+    <input tupe = "submit"
+            value = "Submit">
+    </form>
+    </fieldset>
+</body>
+</html>
